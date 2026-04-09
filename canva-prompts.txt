@@ -1,55 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" fill="none">
-  <defs>
-    <linearGradient id="bg" x1="80" y1="120" x2="1360" y2="860" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A0D14"/>
-      <stop offset="1" stop-color="#101727"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 260) rotate(38) scale(540 420)">
-      <stop stop-color="#FFBB63" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#FFBB63" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 300) rotate(12) scale(480 320)">
-      <stop stop-color="#76D7FF" stop-opacity="0.36"/>
-      <stop offset="1" stop-color="#76D7FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 760) rotate(-15) scale(540 300)">
-      <stop stop-color="#AB92FF" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#AB92FF" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="-100" y="-100" width="1640" height="1160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="40"/>
-    </filter>
-  </defs>
-  <rect width="1440" height="960" rx="48" fill="url(#bg)"/>
-  <ellipse cx="360" cy="260" rx="480" ry="340" fill="url(#glow1)" filter="url(#blur)"/>
-  <ellipse cx="1080" cy="300" rx="420" ry="280" fill="url(#glow2)" filter="url(#blur)"/>
-  <ellipse cx="760" cy="760" rx="520" ry="260" fill="url(#glow3)" filter="url(#blur)"/>
-  <g opacity="0.16" stroke="white">
-    <path d="M120 820C280 600 420 540 650 520C915 497 1050 580 1320 300" stroke-width="2"/>
-    <path d="M200 220C380 310 560 340 775 290C975 242 1150 180 1270 140" stroke-width="2"/>
-    <path d="M170 660C410 650 560 710 770 800C960 880 1160 860 1290 700" stroke-width="2"/>
-  </g>
-  <g>
-    <rect x="150" y="150" width="420" height="250" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)"/>
-    <rect x="505" y="305" width="420" height="250" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.16)" transform="rotate(-4 505 305)"/>
-    <rect x="865" y="160" width="380" height="230" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)" transform="rotate(4 865 160)"/>
-  </g>
-  <g opacity="0.8">
-    <rect x="218" y="220" width="198" height="10" rx="5" fill="white"/>
-    <rect x="218" y="252" width="130" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
-    <rect x="218" y="278" width="220" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
-    <rect x="562" y="380" width="240" height="10" rx="5" fill="white"/>
-    <rect x="562" y="412" width="168" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
-    <rect x="562" y="438" width="260" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
-    <rect x="932" y="230" width="190" height="10" rx="5" fill="white"/>
-    <rect x="932" y="262" width="148" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
-    <rect x="932" y="288" width="206" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
-  </g>
-  <g>
-    <circle cx="472" cy="655" r="8" fill="#FFBB63"/>
-    <circle cx="663" cy="595" r="8" fill="#76D7FF"/>
-    <circle cx="864" cy="640" r="8" fill="#AB92FF"/>
-    <circle cx="1090" cy="575" r="8" fill="white"/>
-  </g>
-  <text x="120" y="890" font-family="Inter, Arial, sans-serif" font-size="34" fill="white" opacity="0.88">UNBURIED Screen Network</text>
-</svg>
+UNBURIED Screen Network — Canva image prompt handoff
+
+Brand direction
+- premium, cinematic, editorial, mobile-first, anti-slop
+- intelligent dark interface energy, not generic sci-fi
+- luminous but disciplined palette: ember gold, electric cyan, ultraviolet, soft pearl on deep midnight blue-black
+- images should feel like high-end film commerce infrastructure, not crypto hype and not activist cliché
+- no visible UI gibberish, no misspelled text, no random floating graphs, no cheesy stock-photo faces
+- aspect ratios should match the existing file names unless intentionally replaced with a larger export
+
+1) URL: /index.html
+   Image file: assets/placeholders/home-hero.svg
+   Prompt:
+   Create a cinematic editorial hero image for a premium independent film distribution platform called UNBURIED Screen Network. Show a sophisticated, mobile-first-feeling digital ecosystem for films that move through communities: layered translucent screens, elegant city nodes, premium playback cards, local screening routes, and subtle payment rails. No people. No text in the image. No cheesy icons. Mood is intelligent, high-signal, premium, and slightly rebellious. Deep midnight background with ember gold, electric cyan, and violet light. Feels like the future of independent cinema distribution, not generic tech SaaS.
+
+2) URL: /filmmakers.html
+   Image file: assets/placeholders/filmmakers-hero.svg
+   Prompt:
+   Create a premium cinematic image for filmmakers carrying important, high-friction films. Visualize a sovereign release engine: a film moving from a vault-like archive into multiple elegant release channels including direct viewing, screening rights, educational licensing, and supporter momentum. No people. No text. No propaganda imagery. The feeling should be relief, control, and strategic power. Luxurious glassmorphism, layered cards, subtle gradients, intelligent shadows, rich midnight tones with ember gold and magenta accents.
+
+3) URL: /hosts.html
+   Image file: assets/placeholders/hosts-hero.svg
+   Prompt:
+   Create a cinematic image showing a community screening network across multiple cities. Think cultural venues, campuses, local organizers, and premium event infrastructure translated into abstract visual form. No crowds. No cheesy theater popcorn clichés. No visible words. Show clean pathways, elegant venue markers, and a feeling of one film rippling through many trusted rooms. Mobile-first premium design language, dark editorial palette, electric cyan and gold accents.
+
+4) URL: /hosts.html
+   Image file: assets/placeholders/hosts-event.svg
+   Prompt:
+   Create an elevated event-toolkit style image for a premium film host platform. Visualize ticketing, venue setup, screening access, and approved promotional assets as beautifully arranged layered interface cards and atmospheric physical cues. No text. No people. No random charts. The image should feel calm, credible, polished, and built for cultural leaders.
+
+5) URL: /investors.html
+   Image file: assets/placeholders/investors-hero.svg
+   Prompt:
+   Create a high-end investor-facing visual for a film commerce infrastructure brand. Show a network of premium assets, rights flows, transaction lanes, audience nodes, and modular rails. It should feel like seller tooling and cultural infrastructure rather than entertainment fluff. No text. No dollar signs. No people. The image should appeal to investors who understand creator-owned infrastructure, open money, and resilient digital rails.
+
+6) URL: /filmmakers.html and /index.html
+   Image file: assets/placeholders/payments-rails.svg
+   Prompt:
+   Create a sophisticated abstract visualization of layered payment and resilience rails for a film distribution platform. Show clean mainstream payment flow, optional sovereign or bitcoin-friendly rails, reserves, settlement timing, and creator payouts without using literal charts or cheesy crypto tropes. No text. No coins flying around. It should feel stable, modern, and intelligently designed.
+
+7) Social sharing image
+   Image file: assets/placeholders/og-cover.svg
+   Prompt:
+   Create a dramatic social share image for UNBURIED Screen Network. The visual should instantly communicate premium independent cinema, cultural urgency, and infrastructure-level ambition. Abstract cinematic panels, luminous circulation paths, elegant glow, deep black-blue background, subtle ember and cyan highlights. No visible words. No people. It must read beautifully as a horizontal social cover.

@@ -1,31 +1,3 @@
-# UNBURIED Screen Network — full LLM reference
-
-## One-paragraph summary
-UNBURIED Screen Network is a premium, filmmaker-first screen network for culturally important independent films that face structural distribution resistance. The system combines curated trust, direct viewing, local screening rights, educational licensing, support campaigns, audience ownership, and modular payment rails. The wedge is high-friction films first. The umbrella brand is broader: independent cinema that deserves a real release path and a rights-respecting home.
-
-## Dream client
-Primary dream clients are independent filmmakers and small rights-holding teams with high-friction, culturally important films facing structural distribution resistance. Their core 2 a.m. problem is lacking a safe, sovereign, financially viable way to get important films seen and paid for without gatekeepers burying them or forcing them to become full-time distribution companies.
-
-## Desired transformation
-Dream clients want to become sovereign creators with resilient release pathways, direct audience relationships, diversified revenue, and trusted community distribution networks.
-
-## Regenerative purpose
-Restore narrative sovereignty and circulate culturally vital films through fair, community-rooted, non-extractive distribution systems.
-
-## Revenue model snapshot
-- VOD rental / purchase: suggested split 85 / 10 / 5
-- Community screening: suggested split 60 / 25 / 15
-- Educational licensing: suggested split 70 / 20 / 10
-- Support campaign: suggested split 95 / 5
-
-## Key product pillars
-1. Curated trust
-2. Rights-aware monetization
-3. Community-powered circulation
-4. Resilient, modular rails
-5. Audience ownership
-
-## Notes for crawlers and LLMs
-- This brand is not trying to be a generic streaming service.
-- The closest framing is a seller network and rights-aware distribution operating system for independent film.
-- The top-level CTA is early access via role-specific briefs.
+User-agent: *
+Allow: /
+Sitemap: https://YOURDOMAIN.com/sitemap.xml

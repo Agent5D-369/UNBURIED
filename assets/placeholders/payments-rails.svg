@@ -1,60 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
-<title id="t">PAYMENT RAILS</title>
-<desc id="d">Fiat ease, resilient options, clean rights</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#09111A" />
-    <stop offset="55%" stop-color="#06070A" />
-    <stop offset="100%" stop-color="#131117" />
-  </linearGradient>
-  <radialGradient id="glow1" cx="25%" cy="22%" r="50%">
-    <stop offset="0%" stop-color="#71D7FF" stop-opacity="0.26" />
-    <stop offset="100%" stop-color="#71D7FF" stop-opacity="0" />
-  </radialGradient>
-  <radialGradient id="glow2" cx="77%" cy="20%" r="35%">
-    <stop offset="0%" stop-color="#F58EFF" stop-opacity="0.18" />
-    <stop offset="100%" stop-color="#F58EFF" stop-opacity="0" />
-  </radialGradient>
-  <radialGradient id="glow3" cx="58%" cy="80%" r="45%">
-    <stop offset="0%" stop-color="#F3B55F" stop-opacity="0.22" />
-    <stop offset="100%" stop-color="#F3B55F" stop-opacity="0" />
-  </radialGradient>
-</defs>
-<rect width="1600" height="1000" fill="url(#bg)" />
-<rect width="1600" height="1000" fill="url(#glow1)" />
-<rect width="1600" height="1000" fill="url(#glow2)" />
-<rect width="1600" height="1000" fill="url(#glow3)" />
-<g stroke="#FFFFFF" stroke-opacity="0.08">
-  <path d="M0 130H1600" />
-  <path d="M0 320H1600" />
-  <path d="M0 510H1600" />
-  <path d="M0 700H1600" />
-  <path d="M0 890H1600" />
-  <path d="M160 0V1000" />
-  <path d="M480 0V1000" />
-  <path d="M800 0V1000" />
-  <path d="M1120 0V1000" />
-  <path d="M1440 0V1000" />
-</g>
-<g>
-  <circle cx="180" cy="180" r="12" fill="#71D7FF" fill-opacity="0.75" />
-  <circle cx="350" cy="280" r="10" fill="#F3B55F" fill-opacity="0.7" />
-  <circle cx="510" cy="230" r="8" fill="#71D7FF" fill-opacity="0.62" />
-  <circle cx="1160" cy="220" r="9" fill="#F58EFF" fill-opacity="0.62" />
-  <circle cx="1300" cy="300" r="7" fill="#F3B55F" fill-opacity="0.68" />
-  <circle cx="970" cy="700" r="10" fill="#71D7FF" fill-opacity="0.64" />
-  <circle cx="1200" cy="760" r="14" fill="#F3B55F" fill-opacity="0.64" />
-  <circle cx="430" cy="720" r="9" fill="#F58EFF" fill-opacity="0.62" />
-</g>
-<g stroke="#71D7FF" stroke-opacity="0.18" stroke-width="2" fill="none">
-  <path d="M180 180C300 210 370 250 510 230" />
-  <path d="M510 230C680 260 940 205 1160 220" />
-  <path d="M430 720C560 650 780 640 970 700" />
-  <path d="M970 700C1050 710 1120 732 1200 760" />
-</g>
-<g>
-  <rect x="140" y="610" width="1320" height="220" rx="30" fill="#0B121A" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.08"/>
-  <text x="210" y="702" fill="#F4F7FB" font-family="Inter,Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="2">PAYMENT RAILS</text>
-  <text x="212" y="772" fill="#B8C1D1" font-family="Inter,Arial,sans-serif" font-size="34">Fiat ease, resilient options, clean rights</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="120" x2="1360" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0D14"/>
+      <stop offset="1" stop-color="#101727"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 260) rotate(38) scale(540 420)">
+      <stop stop-color="#76D7FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#76D7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 300) rotate(12) scale(480 320)">
+      <stop stop-color="#FFBB63" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#FFBB63" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 760) rotate(-15) scale(540 300)">
+      <stop stop-color="#FF8FCF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#FF8FCF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-100" y="-100" width="1640" height="1160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="960" rx="48" fill="url(#bg)"/>
+  <ellipse cx="360" cy="260" rx="480" ry="340" fill="url(#glow1)" filter="url(#blur)"/>
+  <ellipse cx="1080" cy="300" rx="420" ry="280" fill="url(#glow2)" filter="url(#blur)"/>
+  <ellipse cx="760" cy="760" rx="520" ry="260" fill="url(#glow3)" filter="url(#blur)"/>
+  <g opacity="0.16" stroke="white">
+    <path d="M120 820C280 600 420 540 650 520C915 497 1050 580 1320 300" stroke-width="2"/>
+    <path d="M200 220C380 310 560 340 775 290C975 242 1150 180 1270 140" stroke-width="2"/>
+    <path d="M170 660C410 650 560 710 770 800C960 880 1160 860 1290 700" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="150" y="150" width="420" height="250" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)"/>
+    <rect x="505" y="305" width="420" height="250" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.16)" transform="rotate(-4 505 305)"/>
+    <rect x="865" y="160" width="380" height="230" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)" transform="rotate(4 865 160)"/>
+  </g>
+  <g opacity="0.8">
+    <rect x="218" y="220" width="198" height="10" rx="5" fill="white"/>
+    <rect x="218" y="252" width="130" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
+    <rect x="218" y="278" width="220" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
+    <rect x="562" y="380" width="240" height="10" rx="5" fill="white"/>
+    <rect x="562" y="412" width="168" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
+    <rect x="562" y="438" width="260" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
+    <rect x="932" y="230" width="190" height="10" rx="5" fill="white"/>
+    <rect x="932" y="262" width="148" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
+    <rect x="932" y="288" width="206" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
+  </g>
+  <g>
+    <circle cx="472" cy="655" r="8" fill="#76D7FF"/>
+    <circle cx="663" cy="595" r="8" fill="#FFBB63"/>
+    <circle cx="864" cy="640" r="8" fill="#FF8FCF"/>
+    <circle cx="1090" cy="575" r="8" fill="white"/>
+  </g>
+  <text x="120" y="890" font-family="Inter, Arial, sans-serif" font-size="34" fill="white" opacity="0.88">Layered payment and resilience rails</text>
 </svg>
