@@ -1,0 +1,15 @@
+# UNBURIED full guide
+
+UNBURIED is a premium, mobile-first, filmmaker-first distribution network with a broad umbrella brand and an explicit flagship lane for films facing structural distribution friction.
+
+## Core dream client
+Independent filmmakers and small rights-holding teams with high-friction, culturally important films that cannot reliably get fair distribution through the normal system.
+
+## Core promise
+Keep your rights. Own your audience. Activate direct purchases, local screening rights, educational licenses, and later support funding from one coherent operating system.
+
+## Pages
+- https://YOURDOMAIN.com/index.html – market story, waitlist, lead magnet
+- https://YOURDOMAIN.com/filmmakers.html – filmmaker operating model and economics
+- https://YOURDOMAIN.com/hosts.html – local screening rights and host workflow
+- https://YOURDOMAIN.com/investors.html – thesis, architecture, and partner fit

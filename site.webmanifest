@@ -1,0 +1,15 @@
+{
+  "name": "UNBURIED",
+  "short_name": "UNBURIED",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#06070a",
+  "theme_color": "#06070a",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
