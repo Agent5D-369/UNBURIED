@@ -1,17 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Networked release paths across cities, venues, and communities">
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1530"/><stop offset="1" stop-color="#111827"/></linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(250 180) rotate(90) scale(220)"><stop stop-color="#7aa6ff" stop-opacity="0.35"/><stop offset="1" stop-color="#7aa6ff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(930 170) rotate(90) scale(260)"><stop stop-color="#f0be7a" stop-opacity="0.24"/><stop offset="1" stop-color="#f0be7a" stop-opacity="0"/></radialGradient>
-  </defs>
-  <rect width="1200" height="700" fill="url(#bg)"/>
-  <rect width="1200" height="700" fill="url(#glowA)"/>
-  <rect width="1200" height="700" fill="url(#glowB)"/>
-  <rect x="90" y="105" width="1020" height="490" rx="34" fill="#0d1320" stroke="#ffffff22"/>
-  <rect x="130" y="145" width="940" height="40" rx="20" fill="#0a0f19" stroke="#ffffff12"/>
-  <circle cx="160" cy="165" r="7" fill="#ee8e8b"/><circle cx="187" cy="165" r="7" fill="#f1c771"/><circle cx="214" cy="165" r="7" fill="#82d29d"/>
-  <rect x="140" y="220" width="540" height="140" rx="24" fill="#101828" stroke="#ffffff14"/>
-  <rect x="720" y="220" width="310" height="120" rx="24" fill="#101828" stroke="#ffffff14"/>
-  <rect x="650" y="380" width="360" height="120" rx="24" fill="#101828" stroke="#ffffff14"/>
-  <rect x="140" y="390" width="430" height="120" rx="24" fill="#101828" stroke="#ffffff14"/>
-</svg>
+UNBURIED image prompt handoff
+============================
+
+Style system for all images
+---------------------------
+Create cinematic, premium, contemporary editorial images for a dark luxury website about sovereign film distribution. No cheesy sci-fi. No obvious AI slop. No warped anatomy. No random text in image. Lighting should feel expensive, precise, and atmospheric. Blend tactile cinema craft, modern network intelligence, and subtle resistance energy. Use deep charcoal, obsidian, warm amber, muted brass, and electric cyan highlights. Mobile-first composition. Negative space for text overlays. Premium independent-film aesthetics, not startup stock-photo clichés.
+
+1) URL: /index.html
+   Image file: assets/placeholders/home-hero.svg
+   Placement: Homepage hero
+   Prompt:
+   "A breathtaking cinematic threshold image for a premium film-distribution brand. A dark, elegant screening environment opens into a luminous horizon of many small city lights connected by subtle lines, suggesting films traveling through living communities instead of platforms. The mood is sovereign, emotionally charged, premium, and hopeful. No people visible. No text. Deep obsidian blacks, warm projector amber, brushed metal, and a few precise cyan accents. Vertical-friendly crop."
+
+2) URL: /index.html
+   Image file: assets/placeholders/home-network.svg
+   Placement: Why now / network section
+   Prompt:
+   "An editorial-style map-of-culture image showing independent film circulation across cities. Think abstract geographic nodes, glowing screening rooms, intimate venues, and subtle rights pathways. Sophisticated, beautiful, and legible. No cheesy world map. No text. Dark luxury palette with warm light trails and refined cyan signal lines."
+
+3) URL: /filmmakers.html
+   Image file: assets/placeholders/filmmakers-hero.svg
+   Placement: Filmmakers page hero
+   Prompt:
+   "A powerful image of a lone filmmaker's work moving from isolation into circulation. A pristine film frame, poster wall, or edit suite opens toward a constellation of screenings, audiences, and revenue pathways. The image should feel emotionally relieving and premium, like burden turning into leverage. No distorted human faces. No text. Rich contrast, tactile materials, cinematic realism."
+
+4) URL: /filmmakers.html
+   Image file: assets/placeholders/payments-rails.svg
+   Placement: Money and rights section
+   Prompt:
+   "A sophisticated visual metaphor for braided payment and rights rails in a modern media network. Multiple elegant streams of light and data move through secure channels into filmmaker, host, and platform nodes. It should communicate resilience, modularity, and clarity, not crypto hype. Premium fintech-meets-cinema art direction. No logos. No text."
+
+5) URL: /hosts.html
+   Image file: assets/placeholders/hosts-hero.svg
+   Placement: Hosts page hero
+   Prompt:
+   "An intimate, high-design local film gathering in a beautiful independent venue. Small audience, emotionally engaged, warm projector light, subtle diversity, refined staging. It should feel like cultural energy, trust, and meaningful presence. Not generic conference energy. No text. Premium documentary editorial style."
+
+6) URL: /hosts.html
+   Image file: assets/placeholders/hosts-event.svg
+   Placement: Host flow section
+   Prompt:
+   "A striking visual of a local screening event system in motion: event page, venue, projector light, ticketing, and audience gathering abstracted into one beautiful cinematic composition. Must feel organized, inspiring, and real. Dark modern interface vibe blended with physical cultural venue energy. No text."
+
+7) URL: /investors.html
+   Image file: assets/placeholders/investors-hero.svg
+   Placement: Investors page hero
+   Prompt:
+   "A premium investor-facing hero image for a next-generation film commerce network. Elegant dark dashboard surfaces, rights pathways, city nodes, and creator revenue channels integrated into one polished visual ecosystem. It should feel like category creation, not generic SaaS. Quietly bold. Minimal but rich. No text."
+
+8) URL: all pages / social preview
+   Image file: assets/placeholders/og-cover.svg
+   Placement: Open Graph social preview
+   Prompt:
+   "A stunning horizontal cover image for a premium, culturally disruptive film-distribution platform. Think projector beam, premium dark atmosphere, one iconic frame or lens element, and a network of subtle city lights beyond. The emotional tone is truth traveling farther. No text. Safe but edgy. Beautiful enough for social sharing and investor decks."

@@ -1,55 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="A premium event surface for screening requests, ticketing, and host support">
   <defs>
-    <linearGradient id="bg" x1="80" y1="120" x2="1360" y2="860" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A0D14"/>
-      <stop offset="1" stop-color="#101727"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 260) rotate(38) scale(540 420)">
-      <stop stop-color="#AB92FF" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#AB92FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 300) rotate(12) scale(480 320)">
-      <stop stop-color="#76D7FF" stop-opacity="0.36"/>
-      <stop offset="1" stop-color="#76D7FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 760) rotate(-15) scale(540 300)">
-      <stop stop-color="#FFBB63" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#FFBB63" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="-100" y="-100" width="1640" height="1160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="40"/>
-    </filter>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1530"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(250 180) rotate(90) scale(220)"><stop stop-color="#7aa6ff" stop-opacity="0.35"/><stop offset="1" stop-color="#7aa6ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(930 170) rotate(90) scale(260)"><stop stop-color="#f0be7a" stop-opacity="0.24"/><stop offset="1" stop-color="#f0be7a" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect width="1440" height="960" rx="48" fill="url(#bg)"/>
-  <ellipse cx="360" cy="260" rx="480" ry="340" fill="url(#glow1)" filter="url(#blur)"/>
-  <ellipse cx="1080" cy="300" rx="420" ry="280" fill="url(#glow2)" filter="url(#blur)"/>
-  <ellipse cx="760" cy="760" rx="520" ry="260" fill="url(#glow3)" filter="url(#blur)"/>
-  <g opacity="0.16" stroke="white">
-    <path d="M120 820C280 600 420 540 650 520C915 497 1050 580 1320 300" stroke-width="2"/>
-    <path d="M200 220C380 310 560 340 775 290C975 242 1150 180 1270 140" stroke-width="2"/>
-    <path d="M170 660C410 650 560 710 770 800C960 880 1160 860 1290 700" stroke-width="2"/>
-  </g>
-  <g>
-    <rect x="150" y="150" width="420" height="250" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)"/>
-    <rect x="505" y="305" width="420" height="250" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.16)" transform="rotate(-4 505 305)"/>
-    <rect x="865" y="160" width="380" height="230" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)" transform="rotate(4 865 160)"/>
-  </g>
-  <g opacity="0.8">
-    <rect x="218" y="220" width="198" height="10" rx="5" fill="white"/>
-    <rect x="218" y="252" width="130" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
-    <rect x="218" y="278" width="220" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
-    <rect x="562" y="380" width="240" height="10" rx="5" fill="white"/>
-    <rect x="562" y="412" width="168" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
-    <rect x="562" y="438" width="260" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
-    <rect x="932" y="230" width="190" height="10" rx="5" fill="white"/>
-    <rect x="932" y="262" width="148" height="8" rx="4" fill="rgba(255,255,255,0.56)"/>
-    <rect x="932" y="288" width="206" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
-  </g>
-  <g>
-    <circle cx="472" cy="655" r="8" fill="#AB92FF"/>
-    <circle cx="663" cy="595" r="8" fill="#76D7FF"/>
-    <circle cx="864" cy="640" r="8" fill="#FFBB63"/>
-    <circle cx="1090" cy="575" r="8" fill="white"/>
-  </g>
-  <text x="120" y="890" font-family="Inter, Arial, sans-serif" font-size="34" fill="white" opacity="0.88">Premium host event toolkit</text>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect width="1200" height="700" fill="url(#glowA)"/>
+  <rect width="1200" height="700" fill="url(#glowB)"/>
+  <rect x="90" y="105" width="1020" height="490" rx="34" fill="#0d1320" stroke="#ffffff22"/>
+  <rect x="130" y="145" width="940" height="40" rx="20" fill="#0a0f19" stroke="#ffffff12"/>
+  <circle cx="160" cy="165" r="7" fill="#ee8e8b"/><circle cx="187" cy="165" r="7" fill="#f1c771"/><circle cx="214" cy="165" r="7" fill="#82d29d"/>
+  <rect x="140" y="220" width="540" height="140" rx="24" fill="#101828" stroke="#ffffff14"/>
+  <rect x="720" y="220" width="310" height="120" rx="24" fill="#101828" stroke="#ffffff14"/>
+  <rect x="650" y="380" width="360" height="120" rx="24" fill="#101828" stroke="#ffffff14"/>
+  <rect x="140" y="390" width="430" height="120" rx="24" fill="#101828" stroke="#ffffff14"/>
 </svg>

@@ -1,8 +1,4 @@
-UNBURIED Screen Network
+User-agent: *
+Allow: /
 
-Summary: A filmmaker-first screen network for culturally important independent films facing structural distribution resistance.
-Primary pages:
-- /index.html
-- /filmmakers.html
-- /hosts.html
-- /investors.html
+Sitemap: https://YOURDOMAIN.com/sitemap.xml
