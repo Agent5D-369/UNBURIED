@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOURDOMAIN.com/index.html</loc></url>
-  <url><loc>https://YOURDOMAIN.com/filmmakers.html</loc></url>
-  <url><loc>https://YOURDOMAIN.com/hosts.html</loc></url>
-  <url><loc>https://YOURDOMAIN.com/investors.html</loc></url>
-  <url><loc>https://YOURDOMAIN.com/privacy.html</loc></url>
-  <url><loc>https://YOURDOMAIN.com/terms.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN/thanks-waitlist.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN/thanks-filmmaker.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN/thanks-host.html</loc></url>
-  <url><loc>https://YOUR-DOMAIN/thanks-investor.html</loc></url>
-</urlset>
+User-agent: *
+Allow: /
+
+Sitemap: https://YOURDOMAIN.com/sitemap.xml

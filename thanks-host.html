@@ -1,101 +1,164 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Host inquiry received | UNBURIED Screen Network</title>
-  <meta name="description" content="Thanks for your interest in hosting films through UNBURIED.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="progress-line"></div>
-  <header class="site-header">
-    <div class="container nav-shell">
-      <a class="brand" href="index.html" aria-label="UNBURIED Screen Network home">
-        <span class="brand-mark"></span>
-        <span>UNBURIED <em>Screen Network</em></span>
-      </a>
-      <button class="nav-toggle" aria-expanded="false" aria-label="Open navigation">
-        <span></span><span></span>
-      </button>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="filmmakers.html">Filmmakers</a>
-        <a href="hosts.html">Hosts</a>
-        <a href="investors.html">Investors</a>
-      </nav>
-    </div>
-  </header>
-  <main>
 
-<section class="page-hero page-hero-tight">
-  <div class="container page-hero-grid reveal">
-    <div>
-      <span class="eyebrow">Host inquiry received</span>
-      <h1>You are on the host list.</h1>
-      <p class="body-lg">We received your screening partner inquiry. As host onboarding opens, we will share the cleanest path for venues, educators, and organizers who want to bring important films into real rooms.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="hosts.html">Back to hosts</a>
-        <a class="btn btn-secondary" href="index.html">See the homepage</a>
-      </div>
-    </div>
-    <aside class="visual-panel visual-panel-compact">
-      <span class="eyebrow">What happens next</span>
-      <ul class="checklist">
-        <li>The strongest host partners already know their audience and why these films matter there.</li>
-        <li>If you run multiple venues or city nodes, mention that in your next reply when we reach out.</li>
-        <li>You can also send aligned hosts back here once the public pilot opens.</li>
-      </ul>
-    </aside>
-  </div>
-</section>
+:root{
+  --bg:#070b12;
+  --bg2:#0b1530;
+  --panel:#0d1320;
+  --panel2:#111b2a;
+  --text:#f2f4f8;
+  --muted:#b0b7c7;
+  --line:rgba(255,255,255,.08);
+  --gold:#f0be7a;
+  --gold2:#d9a55a;
+  --blue:#7aa6ff;
+  --shadow:0 24px 80px rgba(0,0,0,.45);
+  --radius:24px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--text);background:radial-gradient(circle at 10% 10%,rgba(58,91,157,.25),transparent 30%),linear-gradient(180deg,#060910 0%,#091221 100%);line-height:1.5}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.container{width:min(1200px,calc(100% - 40px));margin:0 auto}
+.skip-link{position:absolute;left:-9999px;top:auto}
+.skip-link:focus{left:12px;top:12px;background:#fff;color:#000;padding:8px 12px;border-radius:10px;z-index:99}
+.site-header{position:sticky;top:0;z-index:20;background:rgba(6,9,16,.82);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.05)}
+.nav-shell{display:flex;align-items:center;justify-content:space-between;min-height:84px;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
+.brand-mark{width:18px;height:18px;border-radius:5px;display:inline-block;background:linear-gradient(135deg,#f6d59a,#7bd1ff);box-shadow:0 0 30px rgba(248,203,118,.2)}
+.brand-lockup{display:flex;flex-direction:column;gap:2px}
+.brand-word{font-size:1.05rem;font-weight:900;letter-spacing:.09em}
+.brand-sub{font-size:.72rem;color:#98a2b7;letter-spacing:.22em;text-transform:uppercase}
+.nav-links{display:flex;align-items:center;gap:28px;font-weight:600}
+.nav-links a{color:#dfe4ee;opacity:.92}
+.nav-links a:hover{opacity:1}
+.nav-cta{padding:14px 18px;border-radius:18px;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.03));border:1px solid rgba(240,190,122,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.nav-toggle{display:none;background:none;border:0;flex-direction:column;gap:4px}
+.nav-toggle span{width:24px;height:2px;background:#fff;display:block}
+.progress-line{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--gold),#89a8ff);width:0;z-index:40}
+section{padding:76px 0;position:relative}
+.hero,.page-hero{padding:72px 0 54px;background:linear-gradient(90deg,rgba(38,65,103,.38),rgba(12,20,40,.05) 45%,rgba(18,40,86,.25) 100%)}
+.hero-grid,.page-hero-grid,.grid-2,.grid-3,.grid-4,.split-band,.section-head-row,.footer-grid{display:grid;gap:28px}
+.hero-grid,.page-hero-grid{grid-template-columns:minmax(0,1.02fr) minmax(420px,.98fr);align-items:center}
+.hero-grid-v007{grid-template-columns:minmax(0,1.02fr) minmax(420px,.98fr);align-items:center;min-height:calc(100vh - 120px)}
+.hero-copy{max-width:640px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;border:1px solid rgba(240,190,122,.2);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));color:#f2c684;font-size:.92rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.eyebrow::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--gold)}
+.display-title{font-size:clamp(3rem,5.7vw,5.25rem);line-height:.96;letter-spacing:-.055em;margin:20px 0 16px;font-weight:900;max-width:11.8ch}
+.display-title-page{max-width:11.6ch}
+.lead{font-size:clamp(1.06rem,1.6vw,1.28rem);line-height:1.55;color:#cfd6e5;max-width:60ch;margin:0 0 24px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 18px;border-radius:16px;font-weight:800;letter-spacing:.01em;border:1px solid transparent;transition:.2s transform,.2s opacity,.2s border-color,.2s background}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:linear-gradient(180deg,#f0c98b,#d8a65f);color:#111318;box-shadow:0 12px 40px rgba(240,190,122,.18)}
+.btn-secondary{background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.12);color:#edf1f7}
+.hero-proof-list,.proof-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.hero-proof-list span,.proof-chip,.proof-pill-row span{padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);color:#dbe2ef;font-size:.95rem;font-weight:600}
+.hero-visual{display:flex;justify-content:flex-end}
+.proof-frame{position:relative;width:min(100%,620px);min-height:480px;padding:20px;border-radius:32px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));box-shadow:var(--shadow),inset 0 1px 0 rgba(255,255,255,.06);overflow:hidden}
+.proof-frame::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 80% 30%,rgba(171,131,255,.14),transparent 35%),radial-gradient(circle at 20% 80%,rgba(80,170,255,.15),transparent 35%);pointer-events:none}
+.proof-topbar{display:flex;align-items:center;gap:10px;color:#afb8c8;font-size:1rem;margin-bottom:18px;position:relative;z-index:1;padding:10px 14px;border-radius:999px;background:rgba(6,9,16,.55);border:1px solid rgba(255,255,255,.06)}
+.proof-topbar span{width:10px;height:10px;border-radius:50%;display:inline-block}
+.proof-topbar span:nth-child(1){background:#ee8e8b}
+.proof-topbar span:nth-child(2){background:#f1c771}
+.proof-topbar span:nth-child(3){background:#82d29d}
+.proof-topbar strong{font-weight:600;color:#b7c0d1}
+.proof-stack{position:relative;height:390px;z-index:1}
+.proof-card{position:absolute;left:18px;right:18px;background:linear-gradient(180deg,rgba(13,19,32,.95),rgba(11,17,29,.92));border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:22px 22px 20px;box-shadow:0 16px 44px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.05)}
+.proof-card h3{margin:6px 0 10px;font-size:1.7rem;line-height:1.08;letter-spacing:-.03em}
+.proof-card p{margin:0;color:#cad1de;font-size:1.02rem;max-width:44ch}
+.proof-kicker,.kicker{display:block;font-size:.88rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#f2c684}
+.proof-pill-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.proof-stack>.proof-card:first-child{top:6px;min-height:180px}
+.floating-card{left:auto;width:74%;right:18px}
+.floating-card-a{top:190px}
+.floating-card-b{top:286px;width:68%;right:36px}
+.reveal{opacity:1;transform:none}
+.reveal-delay{animation-delay:.08s}
+.section-tighter{padding-top:28px;padding-bottom:28px}
+.compare-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.compare-card,.panel,.bento-card,.pull-quote-card,.form-shell,.visual-panel,.page-card,.stat-card{background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:24px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}
+.compare-card h3,.panel h3,.bento-card h3,.table th,.table td{margin-top:0}
+.section-head{max-width:820px;margin-bottom:26px}
+.section-head h2,.section-head-row h2,.split-intro h2{font-size:clamp(2rem,4vw,3.4rem);line-height:1.04;letter-spacing:-.04em;margin:14px 0 12px}
+.body-lg{font-size:1.12rem;color:#cfd6e5}
+.body-md,.section-head p,.panel p,.bento-card p,.feature-row p,.cta-band p,.footer-copy,.form-note,.notice{color:#c8cfdd}
+.section-head-row{grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);align-items:start}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid-4,.pillar-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.grid-2,.split-band,.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bento-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.bento-wide{grid-column:span 2}
+.pull-quote{font-size:1.4rem;line-height:1.25;font-weight:700;margin:0 0 10px}
+.quote-foot,.footer-note{color:#98a2b7}
+.feature-list{display:grid;gap:14px}
+.feature-row{display:grid;grid-template-columns:58px 1fr;gap:16px;padding:20px;border-radius:22px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}
+.feature-step,.flow-step strong{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:14px;background:rgba(240,190,122,.12);border:1px solid rgba(240,190,122,.24);font-weight:800;color:#f2c684}
+.table-wrap{overflow:auto;border-radius:24px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}
+.table{width:100%;border-collapse:collapse;min-width:780px}
+.table th,.table td{padding:18px 16px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;vertical-align:top}
+.table th{font-size:.92rem;text-transform:uppercase;letter-spacing:.08em;color:#f2c684}
+.checklist,.bullet-list,.mini-list{padding-left:20px;color:#d8deea}
+.checklist li,.bullet-list li,.mini-list li{margin:8px 0}
+.form-shell h3{font-size:1.8rem;margin:0 0 8px;line-height:1.1}
+.form-grid{display:grid;gap:14px}
+.form-grid label{display:grid;gap:8px}
+.field-label,.form-grid .kicker{font-size:.84rem;letter-spacing:.08em;text-transform:uppercase;color:#f2c684;font-weight:700}
+input,select,textarea{width:100%;padding:15px 16px;border-radius:16px;border:1px solid rgba(255,255,255,.12);background:rgba(8,11,18,.65);color:#fff;font:inherit}
+textarea{min-height:130px;resize:vertical}
+.notice,.aside-quote{padding:16px 18px;border-radius:18px;background:rgba(240,190,122,.08);border:1px solid rgba(240,190,122,.16)}
+.flow{display:grid;gap:14px}.flow-step{display:grid;grid-template-columns:54px 1fr;gap:14px;align-items:start;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.flow-step:last-child{border-bottom:0}
+.cta-band{display:grid;gap:18px;align-items:center}
+.faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+details{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:18px}
+summary{cursor:pointer;font-weight:700}
+details p{color:#cfd6e5}
+.site-footer{padding:56px 0 28px;border-top:1px solid rgba(255,255,255,.06);background:rgba(4,7,12,.55)}
+.footer-grid{align-items:start}
+.footer-grid h3{margin-top:0;font-size:1rem;color:#f2c684;text-transform:uppercase;letter-spacing:.08em}
+.footer-grid ul{list-style:none;padding:0;margin:0;display:grid;gap:10px;color:#c9d1df}
+.footer-bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:24px;color:#97a2b4;font-size:.95rem}
+.page-hero-tight .page-hero-grid{min-height:auto}
+.form-status{margin-top:10px;font-size:.95rem;color:#cfd6e5}
+@media (max-width: 1100px){
+  .hero-grid-v007,.page-hero-grid,.section-head-row,.grid-4,.pillar-grid,.grid-3,.grid-2,.split-band,.footer-grid,.faq-grid{grid-template-columns:1fr}
+  .hero-grid-v007{min-height:auto;gap:26px}
+  .hero-copy{max-width:none}
+  .hero-visual{justify-content:stretch}
+  .proof-frame{width:100%;min-height:440px}
+  .compare-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .bento-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width: 760px){
+  .container{width:min(100% - 28px,1200px)}
+  .nav-toggle{display:flex}
+  .nav-links{display:none;position:absolute;top:84px;left:14px;right:14px;flex-direction:column;align-items:stretch;padding:16px;border-radius:20px;background:rgba(6,9,16,.96);border:1px solid rgba(255,255,255,.08)}
+  .nav-links.open{display:flex}
+  .nav-cta{text-align:center}
+  .display-title{font-size:clamp(2.65rem,15vw,4.45rem);max-width:12ch}
+  .lead{font-size:1.03rem}
+  .hero,.page-hero{padding-top:44px}
+  .proof-frame{min-height:420px;padding:14px;border-radius:24px}
+  .proof-topbar{font-size:.88rem;padding:8px 10px}
+  .proof-stack{height:356px}
+  .proof-card{left:10px;right:10px;padding:16px;border-radius:20px}
+  .proof-card h3{font-size:1.28rem}
+  .proof-card p{font-size:.95rem}
+  .floating-card{width:82%;right:10px}
+  .floating-card-a{top:178px}
+  .floating-card-b{top:270px;width:76%;right:22px}
+  .compare-strip,.bento-grid,.faq-grid{grid-template-columns:1fr}
+  .bento-wide{grid-column:auto}
+  .hero-actions{flex-direction:column;align-items:stretch}
+  .btn{width:100%}
+  section{padding:58px 0}
+}
 
-<section>
-  <div class="container split-intro reveal">
-    <article class="panel panel-strong">
-      <span class="eyebrow">What to do while you wait</span>
-      <h2>Keep the momentum close.</h2>
-      <p class="body-md">Use the right next page to sharpen your context, share this with the right collaborator, or reconnect when you are ready to move faster. The goal is not more noise. The goal is better timing and better fit.</p>
-    </article>
-    <article class="panel">
-      <span class="eyebrow">Need direct contact?</span>
-      <p class="body-md">For company, partnership, or advisory questions, visit <a href="https://quicklaunchconsulting.com">QuickLaunch Consulting</a> or contact Rick Broider through <a href="https://Agent5D.com">Agent5D.com</a>.</p>
-    </article>
-  </div>
-</section>
-
-  </main>
-  <div class="mobile-cta-bar">
-    <a href="index.html#waitlist" class="btn btn-primary btn-block">Back to the main site</a>
-  </div>
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <div class="footer-brand">UNBURIED Screen Network</div>
-        <p class="footer-copy">A filmmaker-first screen network for films that deserve circulation, not quiet disappearance.</p>
-      </div>
-      <div>
-        <div class="footer-label">Explore</div>
-        <a href="filmmakers.html">For filmmakers</a>
-        <a href="hosts.html">For hosts</a>
-        <a href="investors.html">For investors</a>
-      </div>
-      <div>
-        <div class="footer-label">Built by</div>
-        <a href="https://quicklaunchconsulting.com">QuickLaunch Consulting</a>
-        <a href="https://Agent5D.com">Contact Rick Broider</a>
-      </div>
-      <div>
-        <div class="footer-label">Legal</div>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js" defer></script>
-</body>
-</html>
+.image-card,.visual-panel{overflow:hidden}
+.image-card img,.visual-panel img{width:100%;height:auto;border-radius:20px;display:block}
+.image-caption{margin-top:12px;color:#cdd5e4;font-size:.98rem}
+.floating-stat{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.big-quote{font-size:1.2rem;line-height:1.3;font-weight:700;margin:0 0 14px}
+.panel-strong{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.025));border:1px solid rgba(255,255,255,.1)}
+.split-intro{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:28px;align-items:start}
+.compact span{font-size:.9rem}

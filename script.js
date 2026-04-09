@@ -1,163 +1,24 @@
-
-const toggle = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.nav-links');
-if (toggle && nav) {
-  toggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('is-open');
-    toggle.setAttribute('aria-expanded', String(open));
-  });
-  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-    nav.classList.remove('is-open');
-    toggle.setAttribute('aria-expanded', 'false');
-  }));
-}
-
-const progress = document.querySelector('.progress-line');
-const syncProgress = () => {
-  if (!progress) return;
-  const doc = document.documentElement;
-  const total = doc.scrollHeight - window.innerHeight;
-  const percent = total > 0 ? (window.scrollY / total) * 100 : 0;
-  progress.style.width = `${Math.min(100, Math.max(0, percent))}%`;
-};
-window.addEventListener('scroll', syncProgress, { passive: true });
-window.addEventListener('resize', syncProgress);
-syncProgress();
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.12 });
-
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-const personaContent = {
-  filmmakers: {
-    title: 'Important films deserve a direct path to the people who need them.',
-    copy: 'UNBURIED is a filmmaker-first screen network for high-friction cinema, community screenings, audience ownership, and resilient revenue without forcing the filmmaker to become a full-time distribution company.',
-    primary: { label: 'Join the waitlist', href: '#waitlist' },
-    secondary: { label: 'For filmmakers', href: 'filmmakers.html' },
-    bullets: [
-      'Keep rights by default',
-      'Own your audience relationship',
-      'Monetize through watch, host, license, and support'
-    ]
-  },
-  hosts: {
-    title: 'Bring important films to your city without drowning in rights confusion.',
-    copy: 'UNBURIED turns community screenings into a clean, premium flow for venues, educators, organizers, and cultural nodes who want to fill rooms with films that matter.',
-    primary: { label: 'Join as a host partner', href: '#waitlist' },
-    secondary: { label: 'For hosts', href: 'hosts.html' },
-    bullets: [
-      'Request rights without legal drag',
-      'Launch ticketed events fast',
-      'Earn fairly while helping films travel'
-    ]
-  },
-  investors: {
-    title: 'A seller network for films the current system cannot place cleanly.',
-    copy: 'UNBURIED sits at the intersection of creator commerce, rights infrastructure, local screening distribution, and resilient payment rails. The category is film. The architecture is closer to seller tooling.',
-    primary: { label: 'Request investor updates', href: '#waitlist' },
-    secondary: { label: 'For investors', href: 'investors.html' },
-    bullets: [
-      'Transaction-first business model',
-      'Broad umbrella with a sharp wedge',
-      'Modular rails and portable relationships'
-    ]
-  }
-};
-
-const switcher = document.querySelector('[data-persona-switch]');
-if (switcher) {
-  const title = document.querySelector('[data-persona-title]');
-  const copy = document.querySelector('[data-persona-copy]');
-  const primary = document.querySelector('[data-persona-primary]');
-  const secondary = document.querySelector('[data-persona-secondary]');
-  const bullets = document.querySelector('[data-persona-bullets]');
-  const renderPersona = (key) => {
-    const state = personaContent[key];
-    if (!state) return;
-    switcher.querySelectorAll('[data-persona]').forEach(btn => {
-      btn.classList.toggle('is-active', btn.dataset.persona === key);
-    });
-    if (title) title.textContent = state.title;
-    if (copy) copy.textContent = state.copy;
-    if (primary) { primary.textContent = state.primary.label; primary.setAttribute('href', state.primary.href); }
-    if (secondary) { secondary.textContent = state.secondary.label; secondary.setAttribute('href', state.secondary.href); }
-    if (bullets) {
-      bullets.innerHTML = '';
-      state.bullets.forEach(item => {
-        const span = document.createElement('span');
-        span.textContent = item;
-        bullets.appendChild(span);
-      });
-    }
-  };
-  switcher.addEventListener('click', (event) => {
-    const button = event.target.closest('[data-persona]');
-    if (!button) return;
-    renderPersona(button.dataset.persona);
-  });
-  renderPersona('filmmakers');
-}
-
-const compare = document.querySelector('[data-compare]');
-if (compare) {
-  compare.addEventListener('click', (event) => {
-    const button = event.target.closest('.compare-tab');
-    if (!button) return;
-    const target = button.dataset.target;
-    compare.querySelectorAll('.compare-tab').forEach(tab => tab.classList.toggle('is-active', tab === button));
-    compare.querySelectorAll('.compare-panel').forEach(panel => panel.classList.toggle('is-active', panel.dataset.panel === target));
-  });
-}
-
-
-// FORMSPREE INIT
-(() => {
-  const forms = [
-    { selector: '#waitlist-form', formId: 'xreovldj', redirect: 'thanks-waitlist.html' },
-    { selector: '#filmmaker-form-main', formId: 'xdapvdjq', redirect: 'thanks-filmmaker.html' },
-    { selector: '#host-form-main', formId: 'mykbapak', redirect: 'thanks-host.html' },
-    { selector: '#investor-form-main', formId: 'mkopazaq', redirect: 'thanks-investor.html' },
-  ].filter(item => document.querySelector(item.selector));
-
-  if (!forms.length) return;
-
-  window.formspree =
-    window.formspree ||
-    function () {
-      (formspree.q = formspree.q || []).push(arguments);
-    };
-
-  forms.forEach(({ selector, formId, redirect }) => {
-    formspree('initForm', {
-      formElement: selector,
-      formId,
-      onSuccess: () => {
-        window.location.href = redirect;
-      },
-      onFailure: (context) => {
-        context?.form?.classList?.remove('is-submitting');
-      },
-      onError: (context) => {
-        context?.form?.classList?.remove('is-submitting');
-      },
-      onSubmit: (context) => {
-        context?.form?.classList?.add('is-submitting');
-      }
-    });
-  });
-
-  if (!document.querySelector('script[data-formspree-ajax]')) {
-    const s = document.createElement('script');
-    s.src = 'https://unpkg.com/@formspree/ajax@1';
-    s.defer = true;
-    s.setAttribute('data-formspree-ajax', 'true');
-    document.body.appendChild(s);
-  }
-})();
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Privacy Policy | UNBURIED Screen Network</title>
+  <meta name="description" content="Privacy Policy for UNBURIED Screen Network.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://YOURDOMAIN.com/privacy.html">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head><body>
+<header class="site-header"><div class="container nav-shell"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-lockup"><span class="brand-word">UNBURIED</span><span class="brand-sub">Screen Network</span></span></a><nav class="nav-links"><a href="index.html">Home</a><a href="filmmakers.html">Filmmakers</a><a href="hosts.html">Hosts</a><a href="investors.html">Investors</a></nav></div></header>
+<main id="main">
+<section class="page-hero"><div class="container split-hero"><div class="reveal"><span class="eyebrow">Legal</span><h1>Privacy Policy</h1><p class="lead">This page should be finalized before launch. It is especially important because the site collects names, emails, and inquiry details through waitlist and contact forms.</p></div></div></section>
+<section><div class="container prose-shell reveal">
+<h2>What we collect</h2><p>When you submit a form, we may collect your name, email address, organization, role, and any message you choose to send.</p>
+<h2>How we use it</h2><p>We use this information to respond to inquiries, send the resource you requested, provide launch updates, evaluate partnership fit, and improve the site and offering.</p>
+<h2>Service providers</h2><p>Forms are processed through Formspree. Hosting is provided through GitHub Pages. If analytics, email delivery, or payment tools are added, this policy should be updated to name those providers and explain their role.</p>
+<h2>Retention</h2><p>We keep personal information only as long as reasonably necessary for the purposes described here or as required by law.</p>
+<h2>Your rights</h2><p>Depending on where you live, you may have rights to access, correct, delete, or object to certain uses of your personal data.</p>
+<h2>Contact</h2><p>For privacy questions, contact <a href="https://Agent5D.com" target="_blank" rel="noopener">Rick Broider</a>. Strategic architecture by <a href="https://quicklaunchconsulting.com" target="_blank" rel="noopener">QuickLaunch Consulting</a>.</p>
+<p class="footer-note">Replace this placeholder policy with jurisdiction-specific language before launch, especially if you add analytics, remarketing pixels, cookies, or payments.</p>
+</div></section></main>
+<footer class="site-footer"><div class="container footer-grid"><div><div class="footer-brand">UNBURIED Screen Network</div><p class="footer-copy">A filmmaker-first screen network for films that deserve circulation, not quiet disappearance.</p></div><div><div class="footer-label">Explore</div><a href="index.html">Home</a><a href="filmmakers.html">For filmmakers</a><a href="hosts.html">For hosts</a><a href="investors.html">For investors</a></div><div><div class="footer-label">Company</div><a href="https://quicklaunchconsulting.com" target="_blank" rel="noopener">QuickLaunch Consulting</a><a href="https://Agent5D.com" target="_blank" rel="noopener">Contact Rick Broider</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></div></div><div class="container footer-bottom"><p>Hosted on GitHub Pages. Forms powered by Formspree.</p></div></footer>
+<script src="script.js" defer></script></body></html>
