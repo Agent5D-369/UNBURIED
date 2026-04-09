@@ -1,44 +1,54 @@
-UNBURIED Screen Network — Canva image prompt handoff
+UNBURIED image prompt handoff
+============================
 
-Brand direction
-- premium, cinematic, editorial, mobile-first, anti-slop
-- intelligent dark interface energy, not generic sci-fi
-- luminous but disciplined palette: ember gold, electric cyan, ultraviolet, soft pearl on deep midnight blue-black
-- images should feel like high-end film commerce infrastructure, not crypto hype and not activist cliché
-- no visible UI gibberish, no misspelled text, no random floating graphs, no cheesy stock-photo faces
-- aspect ratios should match the existing file names unless intentionally replaced with a larger export
+Style system for all images
+---------------------------
+Create cinematic, premium, contemporary editorial images for a dark luxury website about sovereign film distribution. No cheesy sci-fi. No obvious AI slop. No warped anatomy. No random text in image. Lighting should feel expensive, precise, and atmospheric. Blend tactile cinema craft, modern network intelligence, and subtle resistance energy. Use deep charcoal, obsidian, warm amber, muted brass, and electric cyan highlights. Mobile-first composition. Negative space for text overlays. Premium independent-film aesthetics, not startup stock-photo clichés.
 
 1) URL: /index.html
    Image file: assets/placeholders/home-hero.svg
+   Placement: Homepage hero
    Prompt:
-   Create a cinematic editorial hero image for a premium independent film distribution platform called UNBURIED Screen Network. Show a sophisticated, mobile-first-feeling digital ecosystem for films that move through communities: layered translucent screens, elegant city nodes, premium playback cards, local screening routes, and subtle payment rails. No people. No text in the image. No cheesy icons. Mood is intelligent, high-signal, premium, and slightly rebellious. Deep midnight background with ember gold, electric cyan, and violet light. Feels like the future of independent cinema distribution, not generic tech SaaS.
+   "A breathtaking cinematic threshold image for a premium film-distribution brand. A dark, elegant screening environment opens into a luminous horizon of many small city lights connected by subtle lines, suggesting films traveling through living communities instead of platforms. The mood is sovereign, emotionally charged, premium, and hopeful. No people visible. No text. Deep obsidian blacks, warm projector amber, brushed metal, and a few precise cyan accents. Vertical-friendly crop."
 
-2) URL: /filmmakers.html
+2) URL: /index.html
+   Image file: assets/placeholders/home-network.svg
+   Placement: Why now / network section
+   Prompt:
+   "An editorial-style map-of-culture image showing independent film circulation across cities. Think abstract geographic nodes, glowing screening rooms, intimate venues, and subtle rights pathways. Sophisticated, beautiful, and legible. No cheesy world map. No text. Dark luxury palette with warm light trails and refined cyan signal lines."
+
+3) URL: /filmmakers.html
    Image file: assets/placeholders/filmmakers-hero.svg
+   Placement: Filmmakers page hero
    Prompt:
-   Create a premium cinematic image for filmmakers carrying important, high-friction films. Visualize a sovereign release engine: a film moving from a vault-like archive into multiple elegant release channels including direct viewing, screening rights, educational licensing, and supporter momentum. No people. No text. No propaganda imagery. The feeling should be relief, control, and strategic power. Luxurious glassmorphism, layered cards, subtle gradients, intelligent shadows, rich midnight tones with ember gold and magenta accents.
+   "A powerful image of a lone filmmaker's work moving from isolation into circulation. A pristine film frame, poster wall, or edit suite opens toward a constellation of screenings, audiences, and revenue pathways. The image should feel emotionally relieving and premium, like burden turning into leverage. No distorted human faces. No text. Rich contrast, tactile materials, cinematic realism."
 
-3) URL: /hosts.html
-   Image file: assets/placeholders/hosts-hero.svg
-   Prompt:
-   Create a cinematic image showing a community screening network across multiple cities. Think cultural venues, campuses, local organizers, and premium event infrastructure translated into abstract visual form. No crowds. No cheesy theater popcorn clichés. No visible words. Show clean pathways, elegant venue markers, and a feeling of one film rippling through many trusted rooms. Mobile-first premium design language, dark editorial palette, electric cyan and gold accents.
-
-4) URL: /hosts.html
-   Image file: assets/placeholders/hosts-event.svg
-   Prompt:
-   Create an elevated event-toolkit style image for a premium film host platform. Visualize ticketing, venue setup, screening access, and approved promotional assets as beautifully arranged layered interface cards and atmospheric physical cues. No text. No people. No random charts. The image should feel calm, credible, polished, and built for cultural leaders.
-
-5) URL: /investors.html
-   Image file: assets/placeholders/investors-hero.svg
-   Prompt:
-   Create a high-end investor-facing visual for a film commerce infrastructure brand. Show a network of premium assets, rights flows, transaction lanes, audience nodes, and modular rails. It should feel like seller tooling and cultural infrastructure rather than entertainment fluff. No text. No dollar signs. No people. The image should appeal to investors who understand creator-owned infrastructure, open money, and resilient digital rails.
-
-6) URL: /filmmakers.html and /index.html
+4) URL: /filmmakers.html
    Image file: assets/placeholders/payments-rails.svg
+   Placement: Money and rights section
    Prompt:
-   Create a sophisticated abstract visualization of layered payment and resilience rails for a film distribution platform. Show clean mainstream payment flow, optional sovereign or bitcoin-friendly rails, reserves, settlement timing, and creator payouts without using literal charts or cheesy crypto tropes. No text. No coins flying around. It should feel stable, modern, and intelligently designed.
+   "A sophisticated visual metaphor for braided payment and rights rails in a modern media network. Multiple elegant streams of light and data move through secure channels into filmmaker, host, and platform nodes. It should communicate resilience, modularity, and clarity, not crypto hype. Premium fintech-meets-cinema art direction. No logos. No text."
 
-7) Social sharing image
-   Image file: assets/placeholders/og-cover.svg
+5) URL: /hosts.html
+   Image file: assets/placeholders/hosts-hero.svg
+   Placement: Hosts page hero
    Prompt:
-   Create a dramatic social share image for UNBURIED Screen Network. The visual should instantly communicate premium independent cinema, cultural urgency, and infrastructure-level ambition. Abstract cinematic panels, luminous circulation paths, elegant glow, deep black-blue background, subtle ember and cyan highlights. No visible words. No people. It must read beautifully as a horizontal social cover.
+   "An intimate, high-design local film gathering in a beautiful independent venue. Small audience, emotionally engaged, warm projector light, subtle diversity, refined staging. It should feel like cultural energy, trust, and meaningful presence. Not generic conference energy. No text. Premium documentary editorial style."
+
+6) URL: /hosts.html
+   Image file: assets/placeholders/hosts-event.svg
+   Placement: Host flow section
+   Prompt:
+   "A striking visual of a local screening event system in motion: event page, venue, projector light, ticketing, and audience gathering abstracted into one beautiful cinematic composition. Must feel organized, inspiring, and real. Dark modern interface vibe blended with physical cultural venue energy. No text."
+
+7) URL: /investors.html
+   Image file: assets/placeholders/investors-hero.svg
+   Placement: Investors page hero
+   Prompt:
+   "A premium investor-facing hero image for a next-generation film commerce network. Elegant dark dashboard surfaces, rights pathways, city nodes, and creator revenue channels integrated into one polished visual ecosystem. It should feel like category creation, not generic SaaS. Quietly bold. Minimal but rich. No text."
+
+8) URL: all pages / social preview
+   Image file: assets/placeholders/og-cover.svg
+   Placement: Open Graph social preview
+   Prompt:
+   "A stunning horizontal cover image for a premium, culturally disruptive film-distribution platform. Think projector beam, premium dark atmosphere, one iconic frame or lens element, and a network of subtle city lights beyond. The emotional tone is truth traveling farther. No text. Safe but edgy. Beautiful enough for social sharing and investor decks."

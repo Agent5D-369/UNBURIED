@@ -23,3 +23,6 @@ Join early to receive one of the role-specific briefs:
 - The Sovereign Release Brief
 - The Community Screening Playbook
 - The Narrative Sovereignty Thesis
+
+- /privacy.html: privacy notice
+- /terms.html: site terms
