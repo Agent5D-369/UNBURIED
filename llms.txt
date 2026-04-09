@@ -1,9 +1,243 @@
-# UNBURIED
-> Sovereign distribution for important films.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>For Hosts | UNBURIED Screen Network</title>
+  <meta name="description" content="Bring important films to your city, campus, venue, or community without drowning in rights confusion or event chaos.">
+  <meta name="theme-color" content="#090b12">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://YOURDOMAIN.com/hosts.html">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="For Hosts | UNBURIED Screen Network">
+  <meta property="og:description" content="Bring important films to your city, campus, venue, or community without drowning in rights confusion or event chaos.">
+  <meta property="og:url" content="https://YOURDOMAIN.com/hosts.html">
+  <meta property="og:image" content="https://YOURDOMAIN.com/assets/placeholders/og-cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="For Hosts | UNBURIED Screen Network">
+  <meta name="twitter:description" content="Bring important films to your city, campus, venue, or community without drowning in rights confusion or event chaos.">
+  <meta name="twitter:image" content="https://YOURDOMAIN.com/assets/placeholders/og-cover.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "UNBURIED Screen Network",
+    "url": "https://YOURDOMAIN.com",
+    "logo": "https://YOURDOMAIN.com/assets/icons/favicon.svg",
+    "description": "A filmmaker-first screen network for culturally important independent films facing structural distribution resistance.",
+    "sameAs": []
+  }</script>
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "UNBURIED Screen Network",
+    "url": "https://YOURDOMAIN.com",
+    "description": "A filmmaker-first screen network for culturally important independent films facing structural distribution resistance.",
+    "potentialAction": {
+      "@type": "SubscribeAction",
+      "target": "https://YOURDOMAIN.com/index.html#waitlist",
+      "name": "Join the waitlist"
+    }
+  }</script>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://YOURDOMAIN.com/index.html"},
+    {"@type": "ListItem", "position": 2, "name": "Hosts", "item": "https://YOURDOMAIN.com/hosts.html"}
+  ]
+}</script>
+</head><body>
+  <div class="progress-line" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="UNBURIED Screen Network home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-lockup">
+          <span class="brand-word">UNBURIED</span>
+          <span class="brand-sub">Screen Network</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="filmmakers.html">Filmmakers</a>
+        <a href="hosts.html">Hosts</a>
+        <a href="investors.html">Investors</a>
+        <a href="index.html#waitlist" class="nav-cta">Get early access</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+<section class="page-hero page-hero-hosts">
+  <div class="container page-hero-grid">
+    <div class="reveal">
+      <span class="eyebrow">For hosts, venues, educators, and local distributors</span>
+      <h1 class="display-title display-title-page">Bring important films to your people without getting trapped in rights confusion, event drag, or fragile logistics.</h1>
+      <p class="lead">UNBURIED turns community screenings into a premium, rights-aware flow that feels simple on the surface and serious underneath — request, approve, ticket, screen, settle.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#host-form">Get the Community Screening Playbook</a>
+        <a class="btn btn-secondary" href="#workflow">See the host workflow</a>
+      </div>
+    </div>
+    <div class="visual-panel reveal reveal-delay">
+      <img src="assets/placeholders/hosts-hero.svg" alt="Abstract illustration of a premium local screening network across multiple cities">
+    </div>
+  </div>
+</section>
 
-- Home: https://YOURDOMAIN.com/index.html
-- For Filmmakers: https://YOURDOMAIN.com/filmmakers.html
-- For Hosts: https://YOURDOMAIN.com/hosts.html
-- For Investors: https://YOURDOMAIN.com/investors.html
+<section>
+  <div class="container split-intro reveal">
+    <div>
+      <span class="eyebrow">What hosts are actually trying to solve</span>
+      <h2>You do not want to become a legal department just to fill a room with a film that matters.</h2>
+      <p class="body-lg">Hosts want to move quickly, protect trust, fill seats, and know the rights are real. Rights holders want the same thing from the other side. The system has to honor both.</p>
+    </div>
+    <aside class="pull-quote-card">
+      <p class="pull-quote">The win is not just a screening. It is a local node of circulation that can keep working for the film after one night.</p>
+    </aside>
+  </div>
+</section>
 
-UNBURIED is a filmmaker-first distribution network built for high-friction, culturally important films facing structural distribution resistance.
+<section>
+  <div class="container bento-grid reveal">
+    <article class="bento-card bento-wide">
+      <span class="kicker">Who this page is for</span>
+      <h3>Independent venues, educators, libraries, community organizers, podcasters, cultural leaders, nonprofit teams, and trusted groups who know a film can open a room.</h3>
+      <p>Sometimes the right audience is local, not algorithmic. This page is for the people willing to make that audience real.</p>
+    </article>
+    <article class="bento-card">
+      <span class="kicker">2 a.m. problem</span>
+      <h3>“I want to bring this film here, but licensing and logistics are a mess.”</h3>
+      <p>Too many emails. Too much uncertainty. Not enough clarity about rights, pricing, promotion, and support.</p>
+    </article>
+    <article class="bento-card">
+      <span class="kicker">Desired transformation</span>
+      <h3>From passionate supporter to empowered local distributor</h3>
+      <p>Request rights, launch an event page, sell tickets, access the screening, and settle cleanly.</p>
+    </article>
+    <article class="bento-card">
+      <span class="kicker">Why it matters</span>
+      <h3>Local screenings turn attention into culture</h3>
+      <p>The audience is not just watching. They are gathering, discussing, and often carrying the film further.</p>
+    </article>
+  </div>
+</section>
+
+<section id="workflow">
+  <div class="container section-head reveal">
+    <span class="eyebrow">How the host flow works</span>
+    <h2>Fast enough to feel frictionless. Serious enough to protect the title.</h2>
+  </div>
+  <div class="feature-list reveal">
+    <article class="feature-row"><span class="feature-step">01</span><div><h3>Discover a host-ready title</h3><p>Browse films already set up for community, educational, commercial, or private event use.</p></div></article>
+    <article class="feature-row"><span class="feature-step">02</span><div><h3>Request the right license</h3><p>Choose event type, city, date, venue size, and ticket plan without decoding legal language.</p></div></article>
+    <article class="feature-row"><span class="feature-step">03</span><div><h3>Get approved or routed cleanly</h3><p>Simple events can move fast. Sensitive requests can still go to manual review when they should.</p></div></article>
+    <article class="feature-row"><span class="feature-step">04</span><div><h3>Launch the screening page</h3><p>Use a high-trust event surface with ticketing, approved copy, share assets, and viewing instructions.</p></div></article>
+    <article class="feature-row"><span class="feature-step">05</span><div><h3>Run the event and settle fairly</h3><p>The system handles access timing, settlement logic, and the post-event summary without turning your night into admin soup.</p></div></article>
+  </div>
+</section>
+
+<section class="section-contrast">
+  <div class="container split-band reveal">
+    <div>
+      <span class="eyebrow">Why hosts support this</span>
+      <h2>You are not only screening a film. You are helping it travel.</h2>
+      <ul class="checklist">
+        <li>Trusted access to films that deserve real rooms</li>
+        <li>Rights clarity in minutes instead of days</li>
+        <li>Fair rev-share so hosting becomes sustainable</li>
+        <li>Ready-made promo assets that still feel premium</li>
+      </ul>
+    </div>
+    <div class="visual-panel visual-panel-compact">
+      <img src="assets/placeholders/hosts-event.svg" alt="Illustration of a polished local screening event and host toolkit">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container section-head reveal">
+    <span class="eyebrow">Use cases</span>
+    <h2>The host network should feel expansive without feeling sloppy.</h2>
+  </div>
+  <div class="pillars-grid reveal">
+    <article class="feature-card"><span class="feature-step">A</span><h3>Community screening</h3><p>For local groups, issue circles, and trusted organizers bringing a film into conversation.</p></article>
+    <article class="feature-card"><span class="feature-step">B</span><h3>Educational screening</h3><p>For universities, classrooms, libraries, and institutions that need clean licensing and predictable terms.</p></article>
+    <article class="feature-card"><span class="feature-step">C</span><h3>Commercial venue screening</h3><p>For theaters, coworking spaces, festivals, and cultural venues with a ticketed event model.</p></article>
+    <article class="feature-card"><span class="feature-step">D</span><h3>Private host circle</h3><p>For aligned private groups, donors, or member communities who need a protected viewing context.</p></article>
+  </div>
+</section>
+
+<section id="host-form" class="section-waitlist">
+  <div class="container waitlist-shell reveal">
+    <div>
+      <span class="eyebrow">For hosts</span>
+      <h2>Get the Community Screening Playbook and hear first when host onboarding opens.</h2>
+      <p class="body-lg">This is for the people who already know that one film, in one room, at the right moment, can change what becomes sayable in a community.</p>
+      <ul class="checklist">
+        <li>How to choose the right event type for the audience you actually have</li>
+        <li>How the rights request flow should feel when it is built well</li>
+        <li>How to fill a room without hypey, low-trust promotion</li>
+      </ul>
+    </div>
+    <div class="form-shell form-shell-strong">
+      <h3>Get the host playbook</h3>
+      <form action="https://formspree.io/f/YOUR_HOST_FORM_ID" method="POST" class="form-grid">
+        <input type="hidden" name="form_name" value="Host Waitlist">
+        <label><span class="field-label">Name</span><input type="text" name="name" required></label>
+        <label><span class="field-label">Email</span><input type="email" name="email" required></label>
+        <label><span class="field-label">Organization / venue</span><input type="text" name="organization"></label>
+        <label><span class="field-label">Primary host type</span>
+          <select name="host_type">
+            <option>Independent venue</option>
+            <option>Educator / campus</option>
+            <option>Community organizer</option>
+            <option>Nonprofit / issue network</option>
+            <option>Podcast / creator audience</option>
+          </select>
+        </label>
+        <label><span class="field-label">What kind of films do you want to bring into your world?</span><textarea name="note" placeholder="A quick note on your audience, venue, city, or the kind of films you know your people are ready for."></textarea></label>
+        <button class="btn btn-primary btn-block" type="submit">Send me the host playbook</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </main>
+  <div class="mobile-cta-bar">
+    <a href="index.html#waitlist" class="btn btn-primary btn-block">Get early access</a>
+  </div>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">UNBURIED Screen Network</div>
+        <p class="footer-copy">A filmmaker-first screen network for films that deserve circulation, not quiet disappearance.</p>
+      </div>
+      <div>
+        <div class="footer-label">Explore</div>
+        <a href="filmmakers.html">For filmmakers</a>
+        <a href="hosts.html">For hosts</a>
+        <a href="investors.html">For investors</a>
+      </div>
+      <div>
+        <div class="footer-label">Primary promise</div>
+        <p class="footer-note">Keep rights. Own audience. Activate direct revenue, local screening rights, and resilient distribution rails in one premium system.</p>
+      </div>
+      <div>
+        <div class="footer-label">Why hosts stay close</div>
+        <p class="footer-note">Because the first host cohort will influence event tooling, approval flows, and the standard for what a premium community screening experience should become.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

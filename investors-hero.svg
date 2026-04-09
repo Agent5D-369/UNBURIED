@@ -5,12 +5,12 @@
       <stop offset="1" stop-color="#101727"/>
     </linearGradient>
     <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 260) rotate(38) scale(540 420)">
-      <stop stop-color="#FFBB63" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#FFBB63" stop-opacity="0"/>
+      <stop stop-color="#76D7FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#76D7FF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 300) rotate(12) scale(480 320)">
-      <stop stop-color="#76D7FF" stop-opacity="0.36"/>
-      <stop offset="1" stop-color="#76D7FF" stop-opacity="0"/>
+      <stop stop-color="#FFBB63" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#FFBB63" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 760) rotate(-15) scale(540 300)">
       <stop stop-color="#AB92FF" stop-opacity="0.25"/>
@@ -46,10 +46,10 @@
     <rect x="932" y="288" width="206" height="8" rx="4" fill="rgba(255,255,255,0.28)"/>
   </g>
   <g>
-    <circle cx="472" cy="655" r="8" fill="#FFBB63"/>
-    <circle cx="663" cy="595" r="8" fill="#76D7FF"/>
+    <circle cx="472" cy="655" r="8" fill="#76D7FF"/>
+    <circle cx="663" cy="595" r="8" fill="#FFBB63"/>
     <circle cx="864" cy="640" r="8" fill="#AB92FF"/>
     <circle cx="1090" cy="575" r="8" fill="white"/>
   </g>
-  <text x="120" y="890" font-family="Inter, Arial, sans-serif" font-size="34" fill="white" opacity="0.88">UNBURIED Screen Network</text>
+  <text x="120" y="890" font-family="Inter, Arial, sans-serif" font-size="34" fill="white" opacity="0.88">City-based community screening network</text>
 </svg>
