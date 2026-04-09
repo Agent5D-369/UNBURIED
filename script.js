@@ -37,10 +37,10 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 const personaContent = {
   filmmakers: {
-    title: 'Your film should not need permission to circulate.',
-    copy: 'UNBURIED gives high-friction films a premium path from buried and fragmented to watchable, licensable, hostable, and paid — without forcing the filmmaker to become a full-time distribution company.',
-    primary: { label: 'Get the Sovereign Release Brief', href: '#waitlist' },
-    secondary: { label: 'See the filmmaker model', href: 'filmmakers.html' },
+    title: 'Important films deserve a direct path to the people who need them.',
+    copy: 'UNBURIED is a filmmaker-first screen network for high-friction cinema, community screenings, audience ownership, and resilient revenue without forcing the filmmaker to become a full-time distribution company.',
+    primary: { label: 'Join the waitlist', href: '#waitlist' },
+    secondary: { label: 'For filmmakers', href: 'filmmakers.html' },
     bullets: [
       'Keep rights by default',
       'Own your audience relationship',
@@ -50,8 +50,8 @@ const personaContent = {
   hosts: {
     title: 'Bring important films to your city without drowning in rights confusion.',
     copy: 'UNBURIED turns community screenings into a clean, premium flow for venues, educators, organizers, and cultural nodes who want to fill rooms with films that matter.',
-    primary: { label: 'Get the Community Screening Playbook', href: '#waitlist' },
-    secondary: { label: 'See the host flow', href: 'hosts.html' },
+    primary: { label: 'Join as a host partner', href: '#waitlist' },
+    secondary: { label: 'For hosts', href: 'hosts.html' },
     bullets: [
       'Request rights without legal drag',
       'Launch ticketed events fast',
@@ -61,8 +61,8 @@ const personaContent = {
   investors: {
     title: 'A seller network for films the current system cannot place cleanly.',
     copy: 'UNBURIED sits at the intersection of creator commerce, rights infrastructure, local screening distribution, and resilient payment rails. The category is film. The architecture is closer to seller tooling.',
-    primary: { label: 'Request the investor thesis', href: '#waitlist' },
-    secondary: { label: 'See the investor page', href: 'investors.html' },
+    primary: { label: 'Request investor updates', href: '#waitlist' },
+    secondary: { label: 'For investors', href: 'investors.html' },
     bullets: [
       'Transaction-first business model',
       'Broad umbrella with a sharp wedge',
@@ -115,3 +115,49 @@ if (compare) {
     compare.querySelectorAll('.compare-panel').forEach(panel => panel.classList.toggle('is-active', panel.dataset.panel === target));
   });
 }
+
+
+// FORMSPREE INIT
+(() => {
+  const forms = [
+    { selector: '#waitlist-form', formId: 'xreovldj', redirect: 'thanks-waitlist.html' },
+    { selector: '#filmmaker-form-main', formId: 'xdapvdjq', redirect: 'thanks-filmmaker.html' },
+    { selector: '#host-form-main', formId: 'mykbapak', redirect: 'thanks-host.html' },
+    { selector: '#investor-form-main', formId: 'mkopazaq', redirect: 'thanks-investor.html' },
+  ].filter(item => document.querySelector(item.selector));
+
+  if (!forms.length) return;
+
+  window.formspree =
+    window.formspree ||
+    function () {
+      (formspree.q = formspree.q || []).push(arguments);
+    };
+
+  forms.forEach(({ selector, formId, redirect }) => {
+    formspree('initForm', {
+      formElement: selector,
+      formId,
+      onSuccess: () => {
+        window.location.href = redirect;
+      },
+      onFailure: (context) => {
+        context?.form?.classList?.remove('is-submitting');
+      },
+      onError: (context) => {
+        context?.form?.classList?.remove('is-submitting');
+      },
+      onSubmit: (context) => {
+        context?.form?.classList?.add('is-submitting');
+      }
+    });
+  });
+
+  if (!document.querySelector('script[data-formspree-ajax]')) {
+    const s = document.createElement('script');
+    s.src = 'https://unpkg.com/@formspree/ajax@1';
+    s.defer = true;
+    s.setAttribute('data-formspree-ajax', 'true');
+    document.body.appendChild(s);
+  }
+})();

@@ -1,23 +1,39 @@
-# UNBURIED Screen Network v003
+# UNBURIED static site
 
-This site has been refined again for sharper dream-target conversion, cleaner public-facing language, and launch-readier legal scaffolding.
+A mobile-first GitHub Pages site for a filmmaker-first distribution network.
 
-## What changed in v003
-- removed remaining internal/meta language from the homepage
-- replaced strategy-speak with dream-target-facing copy in the early-access section
-- added a clearer market-gap section that critiques categories of alternatives without cheap competitor dunking
-- linked QuickLaunch Consulting to https://quicklaunchconsulting.com
-- linked Rick Broider contact to https://Agent5D.com
-- added `privacy.html` and `terms.html`
-- updated footer structure across pages
-- updated sitemap and llms.txt for the new legal pages
+## Files
+- `index.html` – main landing page
+- `filmmakers.html` – filmmaker / rights-holder page
+- `hosts.html` – local screening and host page
+- `investors.html` – investor thesis page
+- `styles.css` – shared styles
+- `script.js` – mobile nav only
+- `assets/placeholders/` – placeholder SVG art blocks
+- `canva-prompts.txt` – image generation prompts mapped to each placeholder
+- `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.txt`, `site.webmanifest`
 
 ## Before launch
-1. Replace `https://YOURDOMAIN.com` everywhere with the live domain.
-2. Replace all Formspree IDs.
-3. Finalize the privacy policy and terms with your real data practices and legal review.
-4. Replace placeholder SVGs with final exported assets.
-5. Connect analytics only after you decide on consent tooling and cookie behavior.
+1. Replace `https://YOURDOMAIN.com` in:
+   - `index.html`
+   - `filmmakers.html`
+   - `hosts.html`
+   - `investors.html`
+   - `sitemap.xml`
+   - `llms.txt`
+   - `llms-full.txt`
+2. Replace Formspree placeholders:
+   - `YOUR_WAITLIST_FORM_ID`
+   - `YOUR_FILMMAKER_FORM_ID`
+   - `YOUR_INVESTOR_FORM_ID`
+3. Swap placeholder SVGs with final images.
+4. Verify trademark and domain availability for the working brand name `UNBURIED`.
 
-## Important note
-This version is materially stronger, but no static site is ever “highest conversion” in the abstract. Real conversion performance depends on live traffic quality, offer-market fit, page speed, proof, and iterative testing.
+## GitHub Pages
+Push the files to a public repo and enable GitHub Pages from the root. GitHub Pages can serve static HTML, CSS, and JS directly from a repository.
+
+## Notes
+- Built with semantic HTML for strong crawlability.
+- Mobile-first layout.
+- Includes canonical tags, OG tags, FAQ schema, sitemap, robots, and llms files.
+- No build step required.
