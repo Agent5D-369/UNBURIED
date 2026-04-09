@@ -1,39 +1,28 @@
-# UNBURIED static site
+# UNBURIED Screen Network
 
-A mobile-first GitHub Pages site for a filmmaker-first distribution network.
+This site has been comprehensively refined for a premium, mobile-first GitHub Pages launch.
 
-## Files
-- `index.html` – main landing page
-- `filmmakers.html` – filmmaker / rights-holder page
-- `hosts.html` – local screening and host page
-- `investors.html` – investor thesis page
-- `styles.css` – shared styles
-- `script.js` – mobile nav only
-- `assets/placeholders/` – placeholder SVG art blocks
-- `canva-prompts.txt` – image generation prompts mapped to each placeholder
-- `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.txt`, `site.webmanifest`
+## What changed in this pass
+- tightened brand architecture to **UNBURIED Screen Network**
+- removed visible internal, placeholder, and instructional language from the user-facing copy
+- rewrote the homepage and supporting pages for filmmakers, hosts, and investors with sharper dream-target positioning
+- added mobile-first hero architecture with persona switching, reveal animations, comparison widgets, sticky CTA, and structured machine-readable content
+- upgraded image placeholders and added a Canva prompt handoff file
+- updated llms.txt, llms-full.txt, robots.txt, sitemap.xml, and structured data
 
 ## Before launch
-1. Replace `https://YOURDOMAIN.com` in:
-   - `index.html`
-   - `filmmakers.html`
-   - `hosts.html`
-   - `investors.html`
-   - `sitemap.xml`
-   - `llms.txt`
-   - `llms-full.txt`
-2. Replace Formspree placeholders:
-   - `YOUR_WAITLIST_FORM_ID`
-   - `YOUR_FILMMAKER_FORM_ID`
-   - `YOUR_INVESTOR_FORM_ID`
-3. Swap placeholder SVGs with final images.
-4. Verify trademark and domain availability for the working brand name `UNBURIED`.
+1. Replace `YOURDOMAIN.com` with the live domain.
+2. Replace Formspree IDs on each page.
+3. Review the brand name for domain and trademark clearance.
+4. Add final images in `assets/placeholders/` or replace them with exported Canva assets.
+5. Connect analytics, privacy policy, and any consent tooling you want to use.
 
-## GitHub Pages
-Push the files to a public repo and enable GitHub Pages from the root. GitHub Pages can serve static HTML, CSS, and JS directly from a repository.
+## Suggested page order for review
+1. `index.html`
+2. `filmmakers.html`
+3. `hosts.html`
+4. `investors.html`
+5. `canva-prompts.txt`
 
-## Notes
-- Built with semantic HTML for strong crawlability.
-- Mobile-first layout.
-- Includes canonical tags, OG tags, FAQ schema, sitemap, robots, and llms files.
-- No build step required.
+## Hosting
+This site is static and GitHub Pages friendly.
